@@ -15,6 +15,7 @@ jobs:
       uses: actions/setup-java@v2  # 更新到v3
       with:
         java-version: 17
+        distribution: 'temurin'  # 指定JDK发行版
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
