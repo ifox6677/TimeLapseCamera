@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v4  # 更新到v4
 
     - name: Setup JDK 17
-      uses: actions/setup-java@v2  # 更新到v3
+      uses: actions/setup-java@v3  # 更新到v3
       with:
         java-version: 17
         distribution: 'temurin'  # 指定JDK发行版
